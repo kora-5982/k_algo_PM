@@ -4,12 +4,20 @@
 
 <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
 <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+<py-env>
+    - time
 
+</py-env>
 </head>
 <body>
 <title>Hello</title>
 <py-script>
-print("Hello Algo")
+
+
+for x in range(1,5):
+    time.sleep(1)
+    print("Hello Algo")
+
 </py-script>
 
 </body>
